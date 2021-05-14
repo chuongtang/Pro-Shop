@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# MERN Stack build for Ecommerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A code-along project when studying on Udemy (Brad Traversy's proShop course)
 
 ## Available Scripts
 
