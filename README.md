@@ -20,3 +20,8 @@
 express-async-handler
 
 Postman env : {{URL}}/api/products
+
+? in route is for optional
+```
+<Route path='/cart/:id?' component={CartScreen} />
+```
