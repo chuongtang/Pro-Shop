@@ -16,3 +16,7 @@
 "data:import": "node backend/seeder",
 "data:destroy": "node backend/seeder -d"
 ```
+
+express-async-handler
+
+Postman env : {{URL}}/api/products
