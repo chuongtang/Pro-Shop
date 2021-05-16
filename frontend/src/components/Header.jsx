@@ -1,5 +1,5 @@
-import { LinkContainer } from 'react-router-bootstrap'
-import { Navbar, Nav, Container } from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 const Header = () => {
   return (
@@ -27,7 +27,7 @@ const Header = () => {
         </Container>
       </Navbar>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

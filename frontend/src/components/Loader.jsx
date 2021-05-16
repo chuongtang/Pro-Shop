@@ -1,4 +1,4 @@
-import { Spinner } from 'react-bootstrap'
+import { Spinner } from 'react-bootstrap';
 
 const Loader = () => {
   return (
@@ -14,7 +14,7 @@ const Loader = () => {
     >
       <span className='sr-only'>Loading...</span>
     </Spinner>
-  )
+  );
 }
 
-export default Loader
+export default Loader;
