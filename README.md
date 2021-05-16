@@ -43,3 +43,13 @@ userSchema.methods.matchPassword = async function (enteredPassword) {
   return await bcrypt.compare(enteredPassword, this.password)
 }
 ```
+
+To return the found User without returning the "password"
+```
+ req.user = await User.findById(decoded.id).select('-password');
+ ```
+
+To run a callback before save method, use model.pre
+```
+userSchema.pre('save', async function (next) {...}
+```
