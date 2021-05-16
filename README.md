@@ -36,3 +36,10 @@ If loggED in , it will be redirect to shipping
 ```
 history.push('/login?redirect=shipping')
 ```
+
+Compare is a method in bcrypt. Set this in the model better than in the controller
+```
+userSchema.methods.matchPassword = async function (enteredPassword) {
+  return await bcrypt.compare(enteredPassword, this.password)
+}
+```
