@@ -25,3 +25,14 @@ Postman env : {{URL}}/api/products
 ```
 <Route path='/cart/:id?' component={CartScreen} />
 ```
+
+Get the right side string of ? on the url
+```
+const qty = location.search ? Number(location.search.split('=')[1]) : 1
+```
+
+
+If loggED in , it will be redirect to shipping
+```
+history.push('/login?redirect=shipping')
+```
