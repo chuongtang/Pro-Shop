@@ -18,6 +18,7 @@ const HomeScreen = () => {
 
   return (
     <>
+      <h1 style={{ color: 'transparent' }} >Welcome to our </h1>
       <h1>🍼 Latest Cute..s</h1>
       {loading ? (
         <Loader />

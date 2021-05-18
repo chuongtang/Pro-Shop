@@ -15,14 +15,14 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar bg='dark' variant='dark' fixed='top' expand='xl' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand>Pro-cuteShop</Navbar.Brand>
+            <Navbar.Brand>ProShop for ...cute ones</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='ml-auto'>
+            <Nav className='ml-auto' style={{ fontSize: '1.3rem' }}>
               <LinkContainer to='/cart'>
                 <Nav.Link>
                   <i className='fas fa-baby-carriage'></i> cuteCart
