@@ -38,7 +38,8 @@ const RegisterScreen = ({ location, history }) => {
 
   return (
     <FormContainer>
-      <h1>Sign Up</h1>
+      <h1 style={{ color: 'transparent' }}> Reg screen </h1>
+      <h1>Sign Up for cute deals</h1>
       {message && <Message variant='danger'>{message}</Message>}
       {error && <Message variant='danger'>{error}</Message>}
       {loading && <Loader />}

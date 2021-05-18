@@ -25,6 +25,7 @@ const ProductScreen = ({ history, match }) => {
 
   return (
     <>
+      <h1 style={{ color: 'transparent' }}> Product screen </h1>
       <Link className='btn btn-light my-3' to='/'>
         Go Back
       </Link>
