@@ -3,7 +3,14 @@ import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import Rating from './Rating';
 
+import { useSelector } from 'react-redux';
+
 const Product = ({ product }) => {
+  const cart = useSelector((state) => state.cart);
+  const { cartItems } = cart;  // this return an array
+  const checkItem = cartItems.some((item) => {
+    return item.product === product._id
+  })
   return (
     <Card className='my-3 p-3 rounded'>
       <Link to={`/product/${product._id}`}>
@@ -24,7 +31,10 @@ const Product = ({ product }) => {
           />
         </Card.Text>
 
-        <Card.Text as='h3'>${product.price}</Card.Text>
+        <Card.Text>{checkItem ?
+          <h6 style={{ backgroundColor: 'pink' }}>Item has been added to 🛒</h6> :
+          <h4>${product.price}</h4>}
+        </Card.Text>
       </Card.Body>
     </Card>
   );
