@@ -31,9 +31,9 @@ const Product = ({ product }) => {
           />
         </Card.Text>
 
-        <Card.Text>{checkItem ?
-          <h6 style={{ backgroundColor: 'pink' }}>Item has been added to 🛒</h6> :
-          <h4>${product.price}</h4>}
+        <Card.Text as='h5'>{checkItem ?
+          <p as='h6' style={{ backgroundColor: 'pink' }}>Item is in 🛒</p> :
+          <p as='h5'>${product.price}</p>}
         </Card.Text>
       </Card.Body>
     </Card>
