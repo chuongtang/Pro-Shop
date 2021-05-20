@@ -1,13 +1,13 @@
 const Loader = () => {
 
   return (
-  <div class="containerLoad">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
+    <div className="containerLoad">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   );
 }
 
