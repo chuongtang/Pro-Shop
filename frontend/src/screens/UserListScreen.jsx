@@ -24,8 +24,8 @@ const UserListScreen = ({ history }) => {
     } else {
       history.push('/login');
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [dispatch, history, successDelete]);
+
+  }, [dispatch, history, successDelete, userInfo]);
 
   const deleteHandler = (id) => {
     // console.log(id);
@@ -50,7 +50,7 @@ const UserListScreen = ({ history }) => {
               <th>NAME</th>
               <th>EMAIL</th>
               <th>ADMIN</th>
-              <th></th>
+              <th>Edit / DEL</th>
             </tr>
           </thead>
           <tbody>
@@ -65,11 +65,12 @@ const UserListScreen = ({ history }) => {
                   {user.isAdmin ? <p>✅</p> : <p>❌</p>}
                 </td>
                 <td>
-                  <LinkContainer to={`/user/${user._id}/edit`}>
+                  <LinkContainer to={`/admin/user/${user._id}/edit`}>
                     <Button variant='light' className='btn-sm'>
-                      <i className='fas fa-edit'></i>
+                      ⎾<i className='fas fa-edit'></i>⏌ ǁ
                     </Button>
                   </LinkContainer>
+
                   <Button
                     variant='danger'
                     className='btn-sm'
