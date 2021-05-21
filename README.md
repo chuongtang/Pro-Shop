@@ -69,3 +69,17 @@ return (
 ......
 )
 ```
+
+### Multer:
+##### is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files. And it should be installed at root, not BE.
+
+
+### Path module from Node to work with file path
+to extract the type (extension) of a file
+```
+{path.extname(file.originalname)}`
+```
+
+### path.join(__dirname))
+__dirname will point to current directory but it ONLY work with commonJS, not available for for ES module. Therefore, it's to be called by:
+``` const __dirname = path.resolve();```
