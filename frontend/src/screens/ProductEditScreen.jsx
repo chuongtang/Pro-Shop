@@ -53,7 +53,7 @@ const ProductEditScreen = ({ match, history }) => {
   }, [dispatch, history, productId, product, successUpdate]);
 
   const uploadFileHandler = async (e) => {
-    const file = e.target.files[0];
+    const file = e.target.files[0]; //first item in the arrays cause we do singleUpload
     const formData = new FormData();
     formData.append('image', file);
     setUploading(true);
@@ -61,7 +61,7 @@ const ProductEditScreen = ({ match, history }) => {
     try {
       const config = {
         headers: {
-          'Content-Type': 'multipart/form-data',
+          'Content-Type': 'multipart/form-data', //for file
         },
       };
 

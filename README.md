@@ -75,10 +75,7 @@ return (
 
 
 ### Path module from Node to work with file path
-to extract the type (extension) of a file
-```
-{path.extname(file.originalname)}`
-```
+to extract the type (extension) of a file ```{path.extname(file.originalname)}```
 
 ### path.join(__dirname))
 __dirname will point to current directory but it ONLY work with commonJS, not available for for ES module. Therefore, it's to be called by:
