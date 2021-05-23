@@ -80,3 +80,7 @@ to extract the type (extension) of a file ```{path.extname(file.originalname)}``
 ### path.join(__dirname))
 __dirname will point to current directory but it ONLY work with commonJS, not available for for ES module. Therefore, it's to be called by:
 ``` const __dirname = path.resolve();```
+
+###  “render prop” 
+##### refers to a technique for sharing code between React components using a prop whose value is a function. 
+``` <Route render={({ history }) => <SearchBox history={history} />} /> ```. In this case SearchBox was placed inside another component (<Header/>) hence, no access to "History".

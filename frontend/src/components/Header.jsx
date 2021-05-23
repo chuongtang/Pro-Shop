@@ -25,7 +25,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Route render={({ history }) => <SearchBox history={history} />} />
-            <Nav className='ml-auto' style={{ fontSize: '1.1rem' }}>
+            <Nav className='ml-auto' style={{ fontSize: '1.1rem', paddingLeft: '2rem' }}>
               <LinkContainer to='/cart'>
                 <Nav.Link>
                   <i className='fas fa-baby-carriage'></i>Cart
