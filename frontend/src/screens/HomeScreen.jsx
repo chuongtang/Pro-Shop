@@ -27,7 +27,7 @@ const HomeScreen = ({ match }) => {
   return (
     <>
       <h1 style={{ color: 'transparent' }} >Welcome to our </h1>
-      <h9 style={{ color: 'transparent' }} >Welcome to our </h9>
+      <p style={{ color: 'transparent', lineHeight: '0.1vh', fontSize: '0.1vh', marginBottome: '0.1vh' }} >Top of Carousel </p>
       <Meta />
       {!keyword ? (
         <ProductCarousel />
