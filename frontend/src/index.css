@@ -102,3 +102,32 @@ h2 {
     transform:scale(1);
   }
 }
+
+/* carousel */
+.carousel-item{ }
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+ 
+  display: flex;
+  background-color: #7e7f9a;
+  max-height: 50%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 35vh;
+  padding: 2rem;
+  margin: 1.5rem;
+  border-radius: 50%;
+}
+.carousel a {
+  margin: 0 auto;
+}
