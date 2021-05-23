@@ -178,7 +178,7 @@ const ProductScreen = ({ history, match }) => {
                           <option value='3.5'>3.5 - Good</option>
                           <option value='4'>4 - Very Good</option>
                           <option value='4.5'>4.5 - Great</option>
-                          <option value='5'>5 - Excellent</option>
+                          <option value='5'>5 - Excellent🎉</option>
                         </Form.Control>
                       </Form.Group>
                       <Form.Group controlId='comment'>
