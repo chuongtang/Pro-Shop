@@ -168,10 +168,14 @@ const ProductScreen = ({ history, match }) => {
                           onChange={(e) => setRating(e.target.value)}
                         >
                           <option value=''>Select...</option>
-                          <option value='1'>1 - Poor</option>
+                          <option value='1'>1 - Very Poor</option>
+                          <option value='1.5'>1.5 - Poor</option>
                           <option value='2'>2 - Fair</option>
-                          <option value='3'>3 - Good</option>
+                          <option value='2.5'>2.5 - Average</option>
+                          <option value='3'>3 - Above Average</option>
+                          <option value='3.5'>3.5 - Good</option>
                           <option value='4'>4 - Very Good</option>
+                          <option value='4.5'>4.5 - Great</option>
                           <option value='5'>5 - Excellent</option>
                         </Form.Control>
                       </Form.Group>
