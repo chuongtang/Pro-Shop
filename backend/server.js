@@ -44,7 +44,7 @@ if (process.env.NODE_ENV === 'production') {
   );
 } else {
   app.get('/', (req, res) => {
-    res.send('App is NOT on production mode');
+    res.send('App is running at ROOT');
   });
 }
 
