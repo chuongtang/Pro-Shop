@@ -1,0 +1,292 @@
+[
+  {
+    "_id": {
+      "$oid": "609f553d4515e936d8120467"
+    },
+    "rating": 4.5,
+    "numReviews": 4,
+    "price": 37.59,
+    "countInStock": 3,
+    "name": "Little Dumpling Booties",
+    "image": "/images/cuteBoots.jpg",
+    "description": "They're so darn cute, you could gobble them right up\"",
+    "brand": "UncGoods",
+    "category": "Apparel",
+    "user": {
+      "$oid": "609f553d4515e936d8120464"
+    },
+    "reviews": [],
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-05-15T04:59:41.760Z"
+    },
+    "updatedAt": {
+      "$date": "2021-05-15T04:59:41.760Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "609f553d4515e936d8120468"
+    },
+    "rating": 4,
+    "numReviews": 4,
+    "price": 59.99,
+    "countInStock": 10,
+    "name": "Foodie Swaddle",
+    "image": "/images/cuteSwaddle.jpg",
+    "description": "These cheeky food-inspired swaddles are sure to inspire smiles (and maybe a future food critic or two)",
+    "brand": "Eleanor Lee and Angel Kho",
+    "category": "Newborn",
+    "user": {
+      "$oid": "609f553d4515e936d8120464"
+    },
+    "reviews": [],
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-05-15T04:59:41.760Z"
+    },
+    "updatedAt": {
+      "$date": "2021-05-15T04:59:41.760Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "609f553d4515e936d8120469"
+    },
+    "rating": 3,
+    "numReviews": 3,
+    "price": 29.99,
+    "countInStock": 5,
+    "name": "Day in the Life Baby Blanket",
+    "image": "/images/blanket.jpg",
+    "description": "This cozy blanket celebrates baby's minimalist approach to life with Eat, Poop, and Sleep woven in big, bold type.",
+    "brand": " Kerry Stokes",
+    "category": "Decor",
+    "user": {
+      "$oid": "609f553d4515e936d8120464"
+    },
+    "reviews": [],
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-05-15T04:59:41.760Z"
+    },
+    "updatedAt": {
+      "$date": "2021-05-15T04:59:41.760Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "609f553d4515e936d812046a"
+    },
+    "rating": 5,
+    "numReviews": 3,
+    "price": 39.99,
+    "countInStock": 10,
+    "name": "Carrot Baby Set - 3 Piece",
+    "image": "/images/carot.jpg",
+    "description": "Because all babies shine bright like a diamond–and are cute enough to eat!",
+    "brand": "UncGood",
+    "category": "Apparel",
+    "user": {
+      "$oid": "609f553d4515e936d8120464"
+    },
+    "reviews": [],
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-05-15T04:59:41.760Z"
+    },
+    "updatedAt": {
+      "$date": "2021-05-15T04:59:41.760Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "609f553d4515e936d812046b"
+    },
+    "rating": 3.5,
+    "numReviews": 2,
+    "price": 149.99,
+    "countInStock": 7,
+    "name": "Dandy Bear Music Box",
+    "image": "/images/musicBox.jpg",
+    "description": "This handcrafted wooden bear soothes baby with the tune of \"You Are My Sunshine.\"",
+    "brand": "UncGood",
+    "category": "Decor",
+    "user": {
+      "$oid": "609f553d4515e936d8120464"
+    },
+    "reviews": [],
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-05-15T04:59:41.760Z"
+    },
+    "updatedAt": {
+      "$date": "2021-05-15T04:59:41.760Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "609f553d4515e936d812046c"
+    },
+    "rating": 4,
+    "numReviews": 4,
+    "price": 59.99,
+    "countInStock": 0,
+    "name": "Bath Bubbles Mixing Kit",
+    "image": "/images/bath.jpg",
+    "description": "Let little ones create in the tub with naturally scented hypoallergenic mix-and-match bath essentials.",
+    "brand": "Stephanie Leshney",
+    "category": "Newborn",
+    "user": {
+      "$oid": "609f553d4515e936d8120464"
+    },
+    "reviews": [],
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-05-15T04:59:41.761Z"
+    },
+    "updatedAt": {
+      "$date": "2021-05-15T04:59:41.761Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60a284a10e3470dc9945abfc"
+    },
+    "rating": "4.5",
+    "numReviews": "12",
+    "price": "150.99",
+    "countInStock": "9",
+    "name": "Lovevery PLay Gym",
+    "image": "/images/playGym.jpg",
+    "description": "Designed by child development experts, the play gym moves with your baby from lying on their back to tummy time and finally sitting up.",
+    "brand": "Lovevery",
+    "category": "playroom"
+  },
+  {
+    "_id": {
+      "$oid": "60a29f163425a13b9c14d4e0"
+    },
+    "brand": "Klarna. ",
+    "category": "Newborn",
+    "countInStock": "6",
+    "description": "The gold standard in baby swings with motions that mimic human movement and adjustability via a Bluetooth device or a toe tap.",
+    "image": "/images/mamaRoo.jpg",
+    "name": "mamaRoo swing",
+    "numReviews": 23,
+    "price": 229.99,
+    "rating": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "60a29f163425a13b9c14d4e1"
+    },
+    "brand": "NinkyNonk",
+    "category": "Newborn",
+    "countInStock": "9",
+    "description": "This is a magical and special sleeping bag,and is shaped like a mermaid. With bold imagination, and soft fabric,we make this sleeping bag for your baby",
+    "image": "/images/mermaidSleep.jpg",
+    "name": "Mermaid Sleep",
+    "numReviews": 12,
+    "price": 42.99,
+    "rating": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "60a29f163425a13b9c14d4e2"
+    },
+    "brand": "BloomBath",
+    "category": "Newborn",
+    "countInStock": "11",
+    "description": " A booming bath lotus to put in the sink and make bath time a painless experience for both of you.",
+    "image": "/images/bloomingBath.jpg",
+    "name": "Blooming Bath",
+    "numReviews": 8,
+    "price": 129.88,
+    "rating": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "60a29f163425a13b9c14d4e3"
+    },
+    "brand": "vivobiniya",
+    "category": "Newborn",
+    "countInStock": "5",
+    "description": "Peecabe Newborn Baby Girl Hospital Hat Infant Bow Hat Soft Cute Knotted Hats 5-Pack",
+    "image": "/images/bowHat.jpg",
+    "name": "Infant Bow Hat",
+    "numReviews": 23,
+    "price": 32.89,
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "60a29f163425a13b9c14d4e4"
+    },
+    "brand": "Hztyyier",
+    "category": "Decor",
+    "countInStock": "6",
+    "description": "Baby Milestone Blanket Growth Record Newborn Photography Props Playing Mat",
+    "image": "/images/milestone.jpg",
+    "name": "Milestone Blanket",
+    "numReviews": 25,
+    "price": 23.23,
+    "rating": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "60a29f163425a13b9c14d4e5"
+    },
+    "brand": "PASHOP",
+    "category": "Decor",
+    "countInStock": "13",
+    "description": "Kids Unicorn Growth Chart Baby Roll-up Wood Frame Canvas Fabric Removable Height Growth Chart Wall Art Hanging Ruler",
+    "image": "/images/growChart.jpg",
+    "name": "Unicorn Growth Chart",
+    "numReviews": 10,
+    "price": 23.99,
+    "rating": 4
+  },
+  {
+    "_id": {
+      "$oid": "60a29f163425a13b9c14d4e6"
+    },
+    "brand": "DECOWALL",
+    "category": "Decor",
+    "countInStock": "9",
+    "description": " Jungle Kids Wall Stickers Decals Peel and Stick Removable for Nursery Bedroom Living Room",
+    "image": "/images/wallSticker.jpg",
+    "name": "Jungle Kids Wall Stickers",
+    "numReviews": 9,
+    "price": 20.99,
+    "rating": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "60a2a79b3425a13b9c14d4e7"
+    },
+    "brand": "Nacaitang",
+    "category": "Apparel",
+    "countInStock": 12,
+    "description": "Soft Sleeping Wrap Blankets 0-3M (A-Purple)",
+    "image": "/images/swaddleBlanket.jpg",
+    "name": "Soft Sleeping Wrap",
+    "numReviews": 11,
+    "price": 19.96,
+    "rating": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "60a2a79b3425a13b9c14d4e8"
+    },
+    "brand": "iAutoTime",
+    "category": "Apparel",
+    "countInStock": 5,
+    "description": "Newborn Infant Baby Girl Clothes Bow Floral Ruffle Long Sleeve Top+ Pants+Headband Outfits",
+    "image": "/images/yellowOutfit.jpg",
+    "name": "Baby girl Yellow Outfits",
+    "numReviews": 65,
+    "price": 39.56,
+    "rating": 4.5
+  }
+]

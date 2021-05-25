@@ -1,3 +1,7 @@
+
+body {
+font-family: 'Love Ya Like A Sister', cursive !important;
+}
 main {
   min-height: 80vh;
 }
@@ -6,6 +10,124 @@ h3 {
   padding: 1rem 0;
 }
 
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
 .rating span {
-  margin: 0.1rem;
+  margin: 0.2rem;
+}
+.shopBrand{
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+  animation: flicker 1.5s infinite alternate;
+}
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+  }
+  20%, 24%, 55% {       
+    text-shadow: none;
+  }
+}
+
+.containerLoad{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.containerLoad div{
+  background: rgb(150, 45, 45);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  float: left;
+  top: 40px;
+  position: relative;
+  margin-left: 10px;
+}
+
+.containerLoad div:nth-child(1),.containerLoad div:nth-child(3),.containerLoad div:nth-child(5){
+  animation: animateone 1s linear infinite;
+  top: 40px;
+}
+
+.containerLoad div:nth-child(2),.containerLoad div:nth-child(4){
+  animation: animatetwo 1s linear infinite;
+  top: -40px;
+}
+
+@keyframes animateone{
+  0%{
+    top:40px;
+    transform:scale(1);
+  }
+  50%{
+    top:-40px;
+    transform:scale(0.5);
+  }
+}
+
+@keyframes animatetwo{
+  0%,100%{
+    top:-40px;
+    transform:scale(0.5);
+  }
+  50%{
+    top:40px;
+    transform:scale(1);
+  }
+}
+
+/* carousel */
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+ 
+  display: flex;
+  background-color: #7e7f9a;
+  max-height: 50%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 35vh;
+  padding: 2rem;
+  margin: 1.5rem;
+  border-radius: 50%;
+}
+.carousel a {
+  margin: 0 auto;
 }

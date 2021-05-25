@@ -1,9 +1,16 @@
 
-import { Link } from 'react-router-dom'
-import { Card } from 'react-bootstrap'
-import Rating from './Rating'
+import { Link } from 'react-router-dom';
+import { Card } from 'react-bootstrap';
+import Rating from './Rating';
+
+import { useSelector } from 'react-redux';
 
 const Product = ({ product }) => {
+  const cart = useSelector((state) => state.cart);
+  const { cartItems } = cart;  // this return an array
+  const checkItem = cartItems.some((item) => {
+    return item.product === product._id
+  })
   return (
     <Card className='my-3 p-3 rounded'>
       <Link to={`/product/${product._id}`}>
@@ -13,7 +20,7 @@ const Product = ({ product }) => {
       <Card.Body>
         <Link to={`/product/${product._id}`}>
           <Card.Title as='div'>
-            <strong>{product.name}</strong>
+            <strong style={{ color: '#e07a5f' }}>{product.name}</strong>
           </Card.Title>
         </Link>
 
@@ -24,10 +31,13 @@ const Product = ({ product }) => {
           />
         </Card.Text>
 
-        <Card.Text as='h3'>${product.price}</Card.Text>
+        <Card.Text as='h5'>{checkItem ?
+          <p as='h6' style={{ backgroundColor: 'pink' }}>Added to 🛒</p> :
+          <p as='h5'>${product.price}</p>}
+        </Card.Text>
       </Card.Body>
     </Card>
-  )
+  );
 }
 
-export default Product
+export default Product;
