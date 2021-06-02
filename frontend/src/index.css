@@ -131,3 +131,12 @@ h2 {
 .carousel a {
   margin: 0 auto;
 }
+#numI{
+  font-size: small;
+  font-style: bold;
+  color: orange;
+  background-color: #7e7f9a;
+  border-radius: 40%;
+  padding-left: 0.5ch;
+  padding-right: 0.5ch; 
+}

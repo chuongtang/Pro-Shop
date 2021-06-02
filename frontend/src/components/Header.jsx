@@ -14,6 +14,9 @@ const Header = () => {
   const logoutHandler = () => {
     dispatch(logout());
   }
+  const cart = useSelector((state) => state.cart);
+  const { cartItems } = cart;
+  let totalItem = cartItems.reduce((acc, item) => acc + Number(item.qty), 0);
 
   return (
     <header>
@@ -28,7 +31,8 @@ const Header = () => {
             <Nav className='ml-auto' style={{ fontSize: '1.1rem', paddingLeft: '2rem' }}>
               <LinkContainer to='/cart'>
                 <Nav.Link>
-                  <i className='fas fa-baby-carriage'></i>Cart
+                <i className="fas fa-shopping-cart"> </i> 
+                {cartItems.length >= 1 && <span id='numI'>{totalItem}</span>}
                 </Nav.Link>
               </LinkContainer>
               {userInfo ? (
